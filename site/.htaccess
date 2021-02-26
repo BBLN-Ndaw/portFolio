@@ -1,0 +1,11 @@
+#activation du module de réecriture de d'url
+RewriteEngine on
+# regle de reecriture de l"url
+RewriteRule ^realisation/([a-z0-9\-]+)$ view.php?slog=$1
+# cela veut dire : remplace ce qui est à droite par ce qui est à gauche. $1 represente la 1ere parenthese qu'on #rencontre. ici ([a-z0-9\-]+). ce qui est à gauche et à droite c'est la même chose mais on le rend plus jolie à voir
+#en faisant de la reecriture d'url.
+
+#reecriture pour les categories
+RewriteRule ^categorie/([a-z0-9\-]+)$ index.php?slug=$1
+
+#le fichier .htacess change les configurations du serveur.

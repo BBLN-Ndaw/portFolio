@@ -1,0 +1,12 @@
+#salut{
+	border: thin solid #6495ed;
+	color:#ff8c00;
+}
+#nom-prenom{
+	font-weight: bold;
+	color: rgb(0,0,255);
+}
+.infoPersonels{
+	background-color:#DCDCDC
+	
+}

@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=kNXr_yVRTsY
+
+il faut télécharger le fichier .zip de tinymce puis mettre ce code :
+<script>tinymce.init({selector:'textarea'});</script>
+
+
+lien de la fonction pour redimensionner l'image :
+https://github.com/cargan/CakePHP-ImageHelper/blob/master/View/Helper/ImageHelper.php
